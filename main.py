@@ -3,7 +3,7 @@
 
 def is_prime(number: int) -> bool:
     """Retorna True se o número for primo e False caso contrário."""
-
+#Comentário só pra testar se o git ta funcionando
     return False
 
 
