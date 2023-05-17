@@ -11,5 +11,8 @@ def is_prime(number: int) -> bool:
 
 def list_prime_factors(number: int) -> list[int]:
     """Retorna uma lista com os fatores primos de cada número da lista fornecida."""
-
-    return []
+    if number == 1 :
+        return []
+    if is_prime(number) :
+        return [number]
+    return list
