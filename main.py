@@ -11,8 +11,7 @@ def is_prime(number: int) -> bool:
 
 def list_prime_factors(number: int) -> list[int]:
     """Retorna uma lista com os fatores primos de cada número da lista fornecida."""
-    if number == 1 :
-        return []
+    list = []
     # Começar com um divisor 2.
     # Enquanto o número não for 1:
         # Se o divisor não é primo, incrementar o divisor e continua.
@@ -22,6 +21,3 @@ def list_prime_factors(number: int) -> list[int]:
         # Se o divisor é primo, e o número não é divisível por ele:
             # Incrementar o divisor.
 
-    if is_prime(number) :
-        return [number]
-    return list
